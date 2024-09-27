@@ -5,7 +5,7 @@
 
 .contato__titulo,
 .contato__texto {
-    background: var(--azul-degrade);
+    background: var(--branco);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -23,7 +23,7 @@
 
 .contato__email {
     padding: 1em;
-    border: 1px solid var(--azul);
+    border: 1px solid var(--branco);
     border-radius: 24px;
     width: 90%;
     color: var(--azul);
@@ -31,7 +31,7 @@
 
 .contato__email::placeholder {
     font-family: var(--fonte-principal);
-    color: var(--azul);
+    color: var(--branco);
     background: url("../img/Email.svg") no-repeat 5%;
     padding-left: 2em;
 }
